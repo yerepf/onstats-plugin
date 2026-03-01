@@ -1,6 +1,6 @@
 # ⛏️ OnStats - Plugin MCDR
 
-Plugin para [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) que envía estadísticas de minería de tu servidor de Minecraft al backend de [OnStats](https://onstats-portal.vercel.app).
+Plugin para [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) que envía estadísticas de minería de tu servidor de Minecraft al backend de [OnStats](https://onstats.rep.software).
 
 ## 📥 Instalación
 
@@ -48,7 +48,7 @@ La lista se guarda en `config/OnStats/OnStats_users.json`.
    - Suma todos los bloques minados (`minecraft:mined`)
    - Envía los datos al backend via POST a `/stats/`
 
-2. El backend almacena un snapshot con la fecha actual, permitiendo ver el progreso a lo largo del tiempo en el [portal web](https://onstats-portal.vercel.app).
+2. El backend almacena un snapshot con la fecha actual, permitiendo ver el progreso a lo largo del tiempo en el [portal web](https://onstats.rep.software).
 
 ## 📁 Estructura de archivos
 
@@ -58,19 +58,3 @@ config/OnStats/
 └── OnStats_users.json   # Lista de jugadores a trackear
 ```
 
-## 🔗 Links
-
-- **Portal web:** https://onstats-portal.vercel.app
-- **Backend API:** https://onstats-backend.onrender.com
-- **Frontend repo:** https://github.com/yerepf/onstats-portal
-- **Backend repo:** https://github.com/yerepf/onstats-backend
-
-## 📦 Requisitos
-
-- [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) 2.x+
-- Python 3.8+
-- `requests` (incluido en la mayoría de entornos Python)
-
-## 📝 Licencia
-
-MIT

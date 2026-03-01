@@ -13,7 +13,7 @@ PLUGIN_META = {
     'author': 'yerepf'
 }
 
-API_BASE_URL = 'https://onstats-backend.onrender.com/'
+API_BASE_URL = 'https://backend.onstats.rep.software/'
 VALIDATE_TOKEN_ENDPOINT = 'servers/validate-token'
 UPDATE_STATS_ENDPOINT = 'stats/'
 STATS_DIR = 'server/world/stats/'

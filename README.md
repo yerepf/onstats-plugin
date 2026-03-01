@@ -58,3 +58,14 @@ config/OnStats/
 └── OnStats_users.json   # Lista de jugadores a trackear
 ```
 
+
+## 📦 Requisitos
+
+- [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) 2.x+
+- [Stats Helper](https://mcdreforged.com/en/plugin/stats_helper/introduction) (plugin de MCDR, dependencia requerida)
+- Python 3.8+
+- `requests`
+
+## 📝 Licencia
+
+MIT
